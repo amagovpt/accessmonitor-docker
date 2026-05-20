@@ -5,7 +5,7 @@ Para além do servidor da ARTE, I.P, com a _<span lang="en">dockerização</span
 
 ## Instalar uma imagem docker do AccessMonitor numa máquina local
 
-As instruções abaixo pressupõem que já tem uma instalação de Docker a correr na máquina onde pretende instalar o AccessMonitor.
+As instruções abaixo pressupõem que já tem o Docker instalado na máquina onde pretende correr o AccessMonitor.
 
 Estrutura de pastas:
 
@@ -33,7 +33,7 @@ O comando `git clone` cria automaticamente uma nova pasta com o nome do reposit�
 
 ### Criar e configurar o `.env`
 
-De seguida vamos entrar na pasta do projeto `accessmonitor-docker`, vamos criar o ficheiro de ambiente `.env` com as propriedades descritas no `.env.example` e configurar as variáveis de acordo com as requisitos da máquina hospedeira.
+De seguida vamos entrar na pasta do projeto `accessmonitor-docker`, vamos criar o ficheiro de ambiente `.env` com as propriedades descritas no `.env.example` e configurar as variáveis de acordo com os requisitos da máquina hospedeira.
 
 ```bash
 # entrar na pasta do projeto
@@ -46,7 +46,7 @@ vim .env﻿
 
 Definido o `.env` estamos prontos para:
 
-### 1. Construir a imagem Docker
+### 1. Construir a imagem Docker do AccessMonitor
 
 ```bash
 docker build -t accessmonitor-docker .
