@@ -7,7 +7,7 @@ Para além do servidor da ARTE, I.P, com a _<span lang="en">dockerização</span
 
 As instruções abaixo pressupõem que já tem o Docker instalado na máquina onde pretende correr o _container_ do _AccessMonitor_.
 
-Esta instalação disponibiliza o _backend_ do _AccessMonitor_. No final da instalação fica com um _endpoint_ da API (`/amp/eval/`) que executa uma avaliação de acessibilidade. Com este _endpoint_ pode integrar as avaliações de acessibilidade em qualquer aplicação.
+Esta instalação disponibiliza o **_backend_ do _AccessMonitor_**. No final da instalação fica com um _endpoint_ da API (`/amp/eval/`) que executa uma avaliação de acessibilidade web. Com este _endpoint_ pode integrar as avaliações de acessibilidade em qualquer aplicação web.
 
 Eis um exemplo de como pode invocar a API para validar a _<span lang="en">homepage</span>_ `https://www.arte.gov.pt`:
 
