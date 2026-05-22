@@ -1,4 +1,4 @@
-# accessmonitor-docker
+# accessmonitor-docker (_backend_ ou API AccessMonitor)
 AccessMonitor Docker
 
 Com a dockerização, o AccessMonitor pode agora ser instalado em qualquer ambiente: localmente, na rede interna da organização ou integrado noutras aplicações. Desta forma, o AccessMonitor pode avaliar mais páginas, incluindo páginas ainda não publicadas na Internet.
