@@ -9,7 +9,7 @@ As instruções abaixo pressupõem que já tem o Docker instalado na máquina on
 
 Esta instalação disponibiliza o **_backend_ do _AccessMonitor_**. No final da instalação fica com um _endpoint_ da API (`/amp/eval/`) que executa uma avaliação de acessibilidade web. Com este _endpoint_ pode integrar as avaliações de acessibilidade em qualquer aplicação web.
 
-Eis um exemplo de como pode, no final do presente processo de instalação, invocar a API para validar a _<span lang="en">homepage</span>_ `https://www.arte.gov.pt`:
+Eis um exemplo de como pode, no final do presente processo de instalação, invocar a API para efetuar um relatório de acessibilidade da página `https://www.arte.gov.pt`:
 
 ```bash
 URL="https://www.arte.gov.pt"
