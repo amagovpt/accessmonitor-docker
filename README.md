@@ -58,7 +58,7 @@ O comando `git clone` cria automaticamente uma nova pasta com o nome do reposit�
 
 ### 2. Criar e configurar o `.env`
 
-De seguida vamos entrar na pasta do projeto `accessmonitor-docker`, vamos criar o ficheiro de ambiente `.env` com as propriedades descritas no `.env.example` e configurar as variáveis de acordo com os requisitos da máquina hospedeira.
+De seguida entramos na pasta do projeto `accessmonitor-docker`, onde vamos criar o ficheiro de ambiente `.env` com as propriedades descritas no `.env.example` e configurar as variáveis de acordo com os requisitos da máquina hospedeira.
 
 ```bash
 # entrar na pasta do projeto
