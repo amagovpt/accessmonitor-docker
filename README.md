@@ -46,7 +46,7 @@ mkdir projetos
 cd projetos
 ```
 
-### 1. Clonar o repositório `accessmonitor-docker`
+### 1. Clonar o presente repositório `accessmonitor-docker`
 
 De dentro da pasta `projetos/` vamos clonar o repositório `accessmonitor-docker`:
 
