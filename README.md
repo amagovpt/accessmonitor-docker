@@ -20,7 +20,7 @@ curl -i \
   "http://192.168.1.74:3000/amp/eval/$ENCODED"
 ```
 
-Esta solicitação à API do AccessMonitor produz como resposta um ficheiro JSON com todo o output do relatório de acessibilidade web AccessMonitor. Algo como:
+Esta solicitação à API do AccessMonitor devolve como resposta um ficheiro JSON com todo o output da avaliação. Algo como:
 
 ```textplain
 HTTP/1.1 200 OK
